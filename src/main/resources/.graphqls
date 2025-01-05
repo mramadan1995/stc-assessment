@@ -1,0 +1,8 @@
+query {
+    getFileMetadata(fileId: 123, userEmail: "user@example.com") {
+        fileId
+        fileName
+        binaryData
+        permissionGroupName
+    }
+}
